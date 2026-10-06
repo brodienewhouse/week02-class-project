@@ -1,0 +1,29 @@
+# Week 02 Class Project
+
+## Purpose
+
+This program calculates electrical current using voltage and resistance.
+It also checks that the input is valid and that resistance is greater than zero.
+
+## Input Format
+
+The program expects two numbers separated by whitespace:
+
+EX: 12 4
+
+## Build and Run Commands
+
+Build: g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app
+Run: ./build/app
+
+## Example Output 
+
+Current: 3 A
+
+## Limitations
+
+This program only calculates current from a voltage and a resistance. It does not perform unit conversions and the resistance must be greater than zero. It also does not check for realistic values.
+
+## Debugging Reflection
+
+There was an issue when testing where the output did not match the expected output. There was a letter capitalized in the expected output when it should have been lowercase. Fixing this made the program work.
